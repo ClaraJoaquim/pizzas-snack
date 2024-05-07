@@ -1,0 +1,60 @@
+:root {
+    --rosa:#FA00FF;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #999999;
+}
+
+.bg-imagem-fundo {
+    background-image: url(assets/imagem-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.botao-padrao {
+    border-color: var(--rosa);
+    border-width: 5px;
+    color: var(--preto);
+    background-image: linear-gradient(to bottom, var(--branco), var(--cinza));
+}
+
+.botao-padrao:hover {
+    border-color: var(--rosa);
+}
+
+.nav-cor {
+    background-image: linear-gradient(to right, var(--rosa), var(--preto));
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borda-imagem {
+    border-color: var(--rosa);
+}
+
+section:nth-child(1) {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+section:nth-child(2) {
+    background-image: linear-gradient(to top, rgba(250, 0, 255, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.borda {
+    border-color: var(--rosa);
+    border-width: 0.5em;
+}
+
+.borda2 {
+    border-width: 0em;
+}
+
+.rodape {
+    background-image: linear-gradient(to bottom, var(--branco), var(--cinza));
+}
+
